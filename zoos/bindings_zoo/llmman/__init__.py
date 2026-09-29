@@ -1,7 +1,7 @@
 ######
 # Project       : lollms
 # File          : binding.py
-# Author        : ParisNeo with the help of the community
+# Author        : Eric Curtin
 # Underlying 
 # engine author : llmman
 # license       : Apache 2.0
@@ -18,9 +18,9 @@ _spec = importlib.util.spec_from_file_location("ollama_ai", Path(__file__).paren
 _ollama_ai = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_ollama_ai)
 
-__author__ = "parisneo"
-__github__ = "https://github.com/ParisNeo/lollms_bindings_zoo"
-__copyright__ = "Copyright 2023, "
+__author__ = "Eric Curtin"
+__github__ = "https://github.com/ericcurtin"
+__copyright__ = "Copyright 2026, Eric Curtin"
 __license__ = "Apache 2.0"
 
 binding_name = "Llmman"
